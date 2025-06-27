@@ -1,0 +1,1 @@
+// ERROR: Exception during LLM call: 500: HTTP error occurred: {'message': 'Could not process the request : 500 Internal Server Error from POST https://avaplus-internal.avateam.io/api/v1/googleai/query'}
