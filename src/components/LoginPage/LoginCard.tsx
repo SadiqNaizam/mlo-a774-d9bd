@@ -43,7 +43,7 @@ const LoginCard: React.FC = () => {
   };
 
   return (
-    <Card className="w-96 bg-card text-card-foreground rounded-md shadow-md">
+    <Card className="w-96 bg-card text-card-foreground rounded-md shadow-lg border">
       <CardHeader className="text-center">
         <CardTitle className="text-3xl font-bold tracking-tight">
           Log in
