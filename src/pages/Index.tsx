@@ -1,15 +1,16 @@
 import React from 'react';
 import LoginCard from '../components/LoginPage/LoginCard';
+import CenteredContainer from '../components/layout/CenteredContainer';
 
 /**
  * IndexPage serves as the main entry point for the login screen.
- * It provides the overall layout, centering the LoginCard in the middle of the viewport.
+ * It uses a CenteredContainer to place the LoginCard in the middle of the viewport.
  */
 const IndexPage: React.FC = () => {
   return (
-    <main className="flex justify-center items-center h-screen bg-background">
+    <CenteredContainer>
       <LoginCard />
-    </main>
+    </CenteredContainer>
   );
 };
 
