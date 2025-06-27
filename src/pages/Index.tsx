@@ -1,14 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import LoginCard from '../components/LoginPage/LoginCard';
 
-const Index = () => {
+/**
+ * IndexPage serves as the main entry point for the login screen.
+ * It provides the overall layout, centering the LoginCard in the middle of the viewport.
+ */
+const IndexPage: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="flex justify-center items-center h-screen bg-background">
+      <LoginCard />
+    </main>
   );
 };
 
-export default Index;
+export default IndexPage;
